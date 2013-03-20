@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="plantes">
+	    <item>宵夜街</item>
+	    <item>後門</item>
+	    <item>圖書館</item>
+		<item>工程一館</item>
+		<item>工程二館</item>
+		<item>工程三館</item>
+		<item>工程五館</item>
+		<item>科學一館</item>
+		<item>科學二館</item>
+		<item>科學三館</item>
+		<item>科學四館</item>
+		<item>科學五館</item>
+		<item>文學一館</item>
+		<item>文學二館</item>
+		<item>文學三館</item>
+		<item>管理一館</item>
+		<item>管理二館</item>
+	</string-array>
+	<string-array name="shop">
+	    <item>歐姆萊斯</item>
+	    <item>紅油抄手</item>
+	    <item>照燒排骨</item>
+	    <item>竹香便當</item>
+	    <item>香城燒臘</item>
+	    <item>aaaaaaa</item>
+	    <item>bbbbbbb</item>
+	</string-array>    
+</resources>

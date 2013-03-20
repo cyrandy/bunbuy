@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget90"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="0dp"
+    android:id="@+id/any_old_widget2"/>
+<AbsoluteLayout
+	android:id="@+id/widget98"
+	android:layout_width="320dp"
+	android:layout_height="195dp"
+	android:layout_above="@+id/widget96"
+	android:background="@drawable/dinner_bg"
+	android:layout_alignParentLeft="true">
+	<RelativeLayout
+	android:id="@+id/widget106"
+	android:layout_width="307dp"
+	android:layout_height="57dp"
+	android:layout_x="5dp"
+	android:layout_y="30dp">
+<TextView
+	android:id="@+id/result"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    android:text="@string/DinnerResultInit"
+    android:textSize="20sp"
+    android:textColor="#424242"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true" />
+</RelativeLayout>
+<RelativeLayout
+	android:id="@+id/widget107"
+	android:layout_width="307dp"
+	android:layout_height="56dp"
+	android:layout_x="5dp"
+	android:layout_y="115dp">
+<Button
+	android:id="@+id/generate_button"
+	android:background="@drawable/blue_btn"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Generate"
+    android:textSize="18sp"
+    android:textColor="#c9c9c9"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</AbsoluteLayout>
+<LinearLayout
+	android:id="@+id/widget96"
+	android:layout_width="320dp"
+	android:layout_height="157dp"
+	android:orientation="vertical"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true">
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget91"
+	android:layout_width="320dp"
+	android:layout_height="150dp"
+	android:orientation="vertical"
+	android:background="@drawable/dinner_top_bg"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true">
+
+	<com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+</LinearLayout>
+</RelativeLayout>

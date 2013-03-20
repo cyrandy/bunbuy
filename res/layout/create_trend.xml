@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:id="@+id/widget125"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget124"
+	android:layout_alignParentLeft="true"
+    android:paddingTop="18dp"
+    android:paddingLeft="22dp">
+	<Button
+	android:id="@+id/generate_button"
+	android:background="@drawable/blue_btn"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Generate"
+    android:textSize="18sp"
+    android:textColor="#c9c9c9" />
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget124"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget121"
+	android:layout_toRightOf="@+id/widget123"
+	android:paddingTop="10dp">
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="是否同步分享至FaceBook"
+	    android:textSize="20sp"
+	    android:textColor="#484848"
+	    />
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget123"
+	android:layout_width="58dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget121"
+	android:layout_alignParentLeft="true"
+	android:paddingLeft="18dp">
+	<CheckBox
+		android:id="@+id/checkBoxFB"
+		android:layout_width="80dp"
+		android:layout_height="wrap_content"/>
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget121"
+	android:layout_width="330dp"
+	android:layout_height="50dp"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget120"
+	android:layout_alignParentLeft="true">
+	<Spinner android:id="@+id/Spinner02"   
+           android:layout_width="280dp"  
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"></Spinner>  
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget120"
+	android:layout_width="330dp"
+	android:layout_height="30dp"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget119"
+	android:layout_alignParentLeft="true"
+	android:background="@drawable/create_trend_center">
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget119"
+	android:layout_width="330dp"
+	android:layout_height="50dp"
+	android:orientation="vertical"
+	android:layout_below="@+id/widget118"
+	android:layout_alignParentLeft="true">
+	<Spinner android:id="@+id/Spinner01"   
+           android:layout_width="280dp"  
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"></Spinner>  
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/widget118"
+	android:layout_width="320dp"
+	android:layout_height="130dp"
+	android:orientation="vertical"
+	android:background="@drawable/create_trend_top"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true">
+	
+</LinearLayout>
+<com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+</RelativeLayout>
